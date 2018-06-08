@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "SolidityVisualization-Metamodel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"i"
+	],
+	"name" : "SVimporterTestCase",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+metrics
+numberOfContracts
+	^ smartContracts size
