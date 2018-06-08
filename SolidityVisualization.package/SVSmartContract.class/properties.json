@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SolidityVisualization-Metamodel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contractName",
+		"functions"
+	],
+	"name" : "SVSmartContract",
+	"type" : "normal"
+}

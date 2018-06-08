@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SolRootSourceSolNodeVisitor",
+	"category" : "SolidityVisualization-Metamodel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"model",
+		"contract"
+	],
+	"name" : "SolModelCreator",
+	"type" : "normal"
+}
