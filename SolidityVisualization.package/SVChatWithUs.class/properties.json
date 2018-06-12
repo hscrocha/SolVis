@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SVAbstractWorldMenu",
+	"category" : "SolidityVisualization-WorldMenu",
+	"classinstvars" : [
+		"discord"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SVChatWithUs",
+	"type" : "normal"
+}

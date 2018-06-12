@@ -1,4 +1,4 @@
-public - dependencies
+private - dependencies
 resolveInheritanceLinks
 	"Private - Method
 	Solve the inheritance links"

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SVAbstractWorldMenu",
+	"category" : "SolidityVisualization-WorldMenu",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SVHowToReportABug",
+	"type" : "normal"
+}

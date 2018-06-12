@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SVAbstractWorldMenu",
+	"category" : "SolidityVisualization-WorldMenu",
+	"classinstvars" : [
+		"databasePath",
+		"directory"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SVSetDatabasePath",
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
-metrics
+public - metrics
 numberOfContracts
 	^ smartContracts size

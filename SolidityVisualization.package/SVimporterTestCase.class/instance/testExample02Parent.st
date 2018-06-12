@@ -20,5 +20,4 @@ testExample02Parent
 	self assert: testContract numberOfParents equals: 2.
 	self assert: testContract parentNames equals: #('owned' 'token').
 	
-	
 	self assert: testContract parents equals: (Array with: (model contractNamed: 'owned') with: (model contractNamed: 'token')).

@@ -6,3 +6,4 @@ testBasic
 	self assert: c hasNoParent.
 	self assert: c numberOfParents equals: 0.
 	self assert: c numberOfVariables equals: 0.
+	self assert: c contractName equals: 'UNKOWN'
