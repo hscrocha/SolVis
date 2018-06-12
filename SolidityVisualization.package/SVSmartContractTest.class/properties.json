@@ -1,17 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "TestCase",
 	"category" : "SolidityVisualization-Metamodel",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"contractName",
-		"functions",
-		"parents",
-		"parentNames",
-		"variables"
-	],
-	"name" : "SVSmartContract",
+	"instvars" : [ ],
+	"name" : "SVSmartContractTest",
 	"type" : "normal"
 }

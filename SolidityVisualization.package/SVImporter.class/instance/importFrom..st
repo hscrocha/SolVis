@@ -1,4 +1,4 @@
-as yet unclassified
+public - importing
 importFrom: aStream
 	| ast v |
 	ast := SolidityParser parseStream: aStream.
