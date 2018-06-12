@@ -1,4 +1,4 @@
-examples
+tests
 testExample02
 
 	| model owned |

@@ -7,7 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"contractName",
-		"functions"
+		"functions",
+		"parents",
+		"parentNames"
 	],
 	"name" : "SVSmartContract",
 	"type" : "normal"
