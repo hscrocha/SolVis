@@ -9,4 +9,6 @@ testExample02
 	owned := model contractNamed: 'owned'.
 	self assert: owned contractName equals: 'owned'.
 	self assert: owned numberOfFunctions equals: 2.
-	self assert: owned functionNames equals: #('owned' 'transferOwnership')
+	self assert: owned functionNames equals: #('owned' 'transferOwnership').
+	
+	self assert: (owned variableNamed: 'owner') class equals: SVVariable.

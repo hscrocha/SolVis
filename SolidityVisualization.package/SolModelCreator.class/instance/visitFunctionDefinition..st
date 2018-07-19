@@ -9,6 +9,5 @@ visitFunctionDefinition: aFunctionDefinition
 	aFunctionDefinition block ifNotNil: [ 
 		f numberOfStatements: (aFunctionDefinition block statements size)
 	].
-	
 	contract addFunction: f.
 	^ self visitRootSourceSol: aFunctionDefinition

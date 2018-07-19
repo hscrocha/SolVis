@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "SVObject",
 	"category" : "SolidityVisualization-Metamodel",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,7 +8,9 @@
 	"instvars" : [
 		"variableName",
 		"variableType",
-		"variableTypename"
+		"variableTypename",
+		"functionsWriting",
+		"functionsReading"
 	],
 	"name" : "SVVariable",
 	"type" : "normal"

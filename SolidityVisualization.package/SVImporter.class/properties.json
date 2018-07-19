@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "SVObject",
 	"category" : "SolidityVisualization-Metamodel",
 	"classinstvars" : [ ],
 	"pools" : [ ],
