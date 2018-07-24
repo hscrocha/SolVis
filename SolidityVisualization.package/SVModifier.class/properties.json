@@ -1,11 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
+	"super" : "SVObject",
 	"category" : "SolidityVisualization-Metamodel",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "SVVariableTest",
+	"instvars" : [
+		"modifierName",
+		"appliedFunctions"
+	],
+	"name" : "SVModifier",
 	"type" : "normal"
 }

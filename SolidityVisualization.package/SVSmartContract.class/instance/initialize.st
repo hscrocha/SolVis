@@ -5,3 +5,4 @@ initialize
 	parents := OrderedCollection new.
 	variables := OrderedCollection new.
 	contractName := 'UNKOWN'.
+	modifiers := OrderedCollection new.

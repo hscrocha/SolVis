@@ -10,4 +10,11 @@ visitFunctionDefinition: aFunctionDefinition
 		f numberOfStatements: (aFunctionDefinition block statements size)
 	].
 	contract addFunction: f.
+	
+	aFunctionDefinition modifiers do: [ :mm | 
+		
+		mm class == SolUserModifierInvocationNode
+			ifTrue: [ f addModifierName: mm identifier value value ]
+	].
+	
 	^ self visitRootSourceSol: aFunctionDefinition

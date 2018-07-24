@@ -12,3 +12,5 @@ initialize
 	
 	variablesWritten := OrderedCollection new.
 	variablesRead := OrderedCollection new.
+	modifiers := OrderedCollection new.
+	modifierNames := OrderedCollection new.

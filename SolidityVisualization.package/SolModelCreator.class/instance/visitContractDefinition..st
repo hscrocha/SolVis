@@ -9,5 +9,4 @@ visitContractDefinition: aContractDefinition
 	contract parentNames: parentNames copy asArray.
 	answer := self visitRootSourceSol: aContractDefinition.
 	model addSmartContract: contract.
-	
 	^ answer

@@ -10,7 +10,9 @@
 		"numberOfLinesOfCode",
 		"numberOfStatements",
 		"variablesWritten",
-		"variablesRead"
+		"variablesRead",
+		"modifiers",
+		"modifierNames"
 	],
 	"name" : "SVFunction",
 	"type" : "normal"

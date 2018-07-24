@@ -10,7 +10,8 @@
 		"functions",
 		"parents",
 		"parentNames",
-		"variables"
+		"variables",
+		"modifiers"
 	],
 	"name" : "SVSmartContract",
 	"type" : "normal"
