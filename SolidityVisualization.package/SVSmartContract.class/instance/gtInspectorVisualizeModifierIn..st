@@ -1,5 +1,5 @@
 public - visualization
-gtInspectorSolIn: composite
+gtInspectorVisualizeModifierIn: composite
 	<gtInspectorPresentationOrder: -100>
 	composite roassal2
 		title: 'Modifiers';

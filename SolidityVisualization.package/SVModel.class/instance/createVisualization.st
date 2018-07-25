@@ -6,7 +6,7 @@ createVisualization
 	"WE VISUALIZE CONTRACTS"
 	b nodes: self smartContracts forEach: [ :smartContract |
 		"WE VISUALIZE MODIFERS"
-		b shape box color: Color red; size: #numberOfAppliedFunctions.
+		b shape box color: Color red; size: [ :m | m numberOfAppliedFunctions * 3 ].
 		b interaction popupText: [ :m | smartContract contractName, '.', m modifierName ] backgroundColor: Color white.
 		b nodes: smartContract modifiers.
 
@@ -24,19 +24,19 @@ createVisualization
 		
 		"WE DEFINE EDGES BETWEEN FUNCTIONS AND VARIABLES"
 		b shape line color: Color red trans; withShorterDistanceAttachPoint.
-		b edges 
+		b edges  
 			fromObjects: smartContract modifiers;
 			toObjects: smartContract functions;
 			connectToAll: #appliedFunctions. 
 			
 		b shape line color: Color blue trans; withShorterDistanceAttachPoint.
-		b edges 
+		b edges  
 			fromObjects: smartContract variables;
 			toObjects: smartContract functions;
 			connectToAll: #functionsWriting. 
 			
 		b shape line color: Color green trans; withShorterDistanceAttachPoint.
-		b edges 
+		b edges  
 			fromObjects: smartContract variables;
 			toObjects: smartContract functions;
 			connectToAll: #functionsReading. 
