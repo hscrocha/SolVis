@@ -1,14 +1,15 @@
 public
 doProcess: aFileReference
-	| program readStream |
+	| program readStream content |
 	i resetModel.
 	readStream := aFileReference readStream.
-	i importFrom: readStream.
+	content := readStream contents.
+	i importFromString: content.
 	
 	program := SVProgram new.
 	program model: i model.
 	program fileReference: aFileReference.
-	program numberOfLinesOfCode: readStream contents numberOfLinesOfCode.
+	program numberOfLinesOfCode: content lines size.
 	readStream close.
 	
 	programs add: program
