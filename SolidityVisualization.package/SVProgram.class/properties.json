@@ -6,9 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"i",
-		"numberOfContracts"
+		"fileReference",
+		"model",
+		"numberOfLinesOfCode"
 	],
-	"name" : "AllContracts",
+	"name" : "SVProgram",
 	"type" : "normal"
 }

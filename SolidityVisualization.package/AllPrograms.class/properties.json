@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SolidityVisualization-OverallContracts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"i",
+		"programs"
+	],
+	"name" : "AllPrograms",
+	"type" : "normal"
+}

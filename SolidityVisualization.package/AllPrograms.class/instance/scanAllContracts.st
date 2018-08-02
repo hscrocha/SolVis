@@ -4,14 +4,11 @@ scanAllContracts
 
 	| children |
 	children := self defaultPath asFileReference children.
-	numberOfContracts := children size.
+	programs := OrderedCollection new.
 	
 	i := SVImporter new.
 	children do: [ :fileReference |
-		| readStream |
-		readStream := fileReference readStream
-		self doProcess: readStream.
-		readStream close
-		 ].
+		self doProcess: fileReference.
+		 ] displayingProgress: [:aFile | ] every: 0.
 	
 	self inspect 
