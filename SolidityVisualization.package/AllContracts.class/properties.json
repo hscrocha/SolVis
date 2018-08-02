@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SolidityVisualization-OverallContracts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"i",
+		"numberOfContracts"
+	],
+	"name" : "AllContracts",
+	"type" : "normal"
+}
