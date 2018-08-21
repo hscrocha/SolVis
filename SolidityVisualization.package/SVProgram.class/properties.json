@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "SolidityVisualization-OverallContracts",
+	"category" : "SolidityVisualization-Database-OverallContracts",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

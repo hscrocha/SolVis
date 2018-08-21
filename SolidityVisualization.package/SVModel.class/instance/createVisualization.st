@@ -2,8 +2,10 @@ public - visualization
 createVisualization
 	| b |
 	b := RTMondrian new.
+	b view @ RTZoomableView.
 	
 	"WE VISUALIZE CONTRACTS"
+	b shape box color: Color veryVeryLightGray.
 	b nodes: self smartContracts forEach: [ :smartContract |
 		"WE VISUALIZE MODIFERS"
 		b shape box color: Color red; size: [ :m | m numberOfAppliedFunctions * 3 ].

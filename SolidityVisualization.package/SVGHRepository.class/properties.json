@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "SolidityVisualization",
+	"category" : "SolidityVisualization-GitHubRepository",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "SolVDev",
+	"instvars" : [
+		"path"
+	],
+	"name" : "SVGHRepository",
 	"type" : "normal"
 }
