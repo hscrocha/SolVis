@@ -1,7 +1,10 @@
 public - importing
 importFrom: aStream
-	| ast v |
+	"Return the new smart contracts"
+	| ast v scs |
+	scs := (self model smartContracts) copy.
 	ast := SolidityParser parseStream: aStream.
 	v := SolModelCreator new.
 	v model: model.
 	ast acceptVisitor: v.
+	^ self model smartContracts copyWithoutAll: scs

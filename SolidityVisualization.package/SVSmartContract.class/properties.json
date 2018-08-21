@@ -11,7 +11,8 @@
 		"parents",
 		"parentNames",
 		"variables",
-		"modifiers"
+		"modifiers",
+		"fileReference"
 	],
 	"name" : "SVSmartContract",
 	"type" : "normal"
