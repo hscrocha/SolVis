@@ -12,7 +12,8 @@
 		"variablesWritten",
 		"variablesRead",
 		"modifiers",
-		"modifierNames"
+		"modifierNames",
+		"source"
 	],
 	"name" : "SVFunction",
 	"type" : "normal"

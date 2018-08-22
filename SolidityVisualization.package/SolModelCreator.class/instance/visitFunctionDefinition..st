@@ -4,7 +4,7 @@ visitFunctionDefinition: aFunctionDefinition
 	f := SVFunction new.
 	f functionName: (aFunctionDefinition identifier value value).	
 	source := aFunctionDefinition source.
-	source ifNotNil: [ f numberOfLinesOfCode: source lines ].
+	source ifNotNil: [ f numberOfLinesOfCode: source lines size. f source: source ].
 
 	aFunctionDefinition block ifNotNil: [ 
 		f numberOfStatements: (aFunctionDefinition block statements size)

@@ -8,5 +8,5 @@ menuCommandOn: aBuilder
 			action: [
 				| directory |
 				directory := UIManager default chooseDirectory.
-				SVGHRepository new path: directory pathString.
+				(SVGHRepository new path: directory pathString) inspect.
 				]
